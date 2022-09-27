@@ -86,7 +86,7 @@ function GameBoard() {
           return New;
         });
         turn = turn === "white" ? "black" : "white";
-        new Audio("../../../sounds/chessmove.wav").play();
+        new Audio(`${process.env.PUBLIC_URL}/sounds/chessmove.wav`).play();
       }
       chosenPiece = null;
     } else {
