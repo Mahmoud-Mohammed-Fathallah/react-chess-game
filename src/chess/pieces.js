@@ -3,7 +3,7 @@ export default class piece {
         this.row = row;
         this.col = col;
         this.name = name;
-        this.image = `../../../images/chess pieces/${name}.png`
+        this.image = `../../../public/images/chess pieces/${name}.png`
     }
     getRow() {
         return this.row;
